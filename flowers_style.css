@@ -1,0 +1,93 @@
+body {
+    height: 100vh;    
+    margin: 0;
+    /*background: url(https://img.freepik.com/free-vector/spa-business-logo-lotus-icon-design_53876-115927.jpg?size=626&ext=jpg&ga=GA1.1.1431303539.1695750078&semt=ais) left/5% repeat-y,
+    url(https://img.freepik.com/premium-vector/beautiful-flower-and-bunch-floral-vector-illustration_949459-945.jpg?size=626&ext=jpg&ga=GA1.2.1431303539.1695750078&semt=ais) right/5% repeat-y;*/
+    background-color: lightcoral;
+}
+
+div {
+    border: 3px solid #fcdfeb;
+    margin: 0 5% 0 5%;
+    text-align: center;
+    background-color: rgb(245, 153, 153);
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Georgia, serif;
+    text-shadow: .1em .1em .2em gray;
+}
+h2 {
+    color: #fcdfeb;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.5em;
+}
+ul#menu {
+    text-indent: 0;
+}
+ul#menu li#help {
+    width: 200px;
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(248, 172, 185);
+    color: white;
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 90%;
+    font-weight: bold;
+    float: left;
+}
+li details {
+    display: block;
+    font-weight: normal;
+    font-size: 100%;
+    background-color: #fae9f0;
+    color: rgb(190, 80, 117);
+    border: 1px solid rgb(190, 80, 117);
+    border-bottom: none;
+    padding: 5px;
+}
+li details:hover {
+    background-color: #fad7e4;
+}
+li ul{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 5px;
+    text-align: left;
+    border-bottom: 1px solid rgb(190, 80, 117);
+}
+details p {
+    display: block;
+    font-weight: normal;
+    font-family: Tahoma, sans-serif;
+    font-size: 90%;
+    background-color: #efd2fa;
+    color: #7d55a3;
+    border: 1px dashed #7d55a3;
+    padding: 5px;
+}
+table {
+    width: 100%;
+    height: 100%;
+}
+td {
+    vertical-align: top;
+}
+img {
+    width: 90%;
+}
+
+td:first-child {
+    width: 5%;
+    background-image: url(https://img.freepik.com/free-vector/spa-business-logo-lotus-icon-design_53876-115927.jpg?size=626&ext=jpg&ga=GA1.1.1431303539.1695750078&semt=ais);
+    background-size: 100%;
+}
+td:last-child {
+    width: 5%;
+    background-image: url(https://img.freepik.com/premium-vector/beautiful-flower-and-bunch-floral-vector-illustration_949459-945.jpg?size=626&ext=jpg&ga=GA1.2.1431303539.1695750078&semt=ais);
+    background-size: 100%;
+}
